@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: ai-task-tracker-api
+    runtime: dotnet
+    plan: free
+    buildCommand: dotnet publish AiTaskTracker.Server.csproj -c Release -o out
+    startCommand: dotnet out/AiTaskTracker.Server.dll --urls http://0.0.0.0:$PORT
+    envVars:
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
+      - key: Database__Provider
+        value: Postgres
+      - key: ConnectionStrings__Default
+        sync: false

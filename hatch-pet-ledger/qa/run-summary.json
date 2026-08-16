@@ -1,0 +1,11 @@
+﻿{
+    "contact_sheet":  "C:\\Users\\legen\\TO-DO-App\\hatch-pet-ledger\\qa\\contact-sheet.png",
+    "visual_qa":  "pass",
+    "review":  "C:\\Users\\legen\\TO-DO-App\\hatch-pet-ledger\\qa\\review.json",
+    "run_dir":  "C:\\Users\\legen\\TO-DO-App\\hatch-pet-ledger",
+    "package":  "C:\\Users\\legen\\.codex\\pets\\ledger",
+    "ok":  true,
+    "note":  "Deterministic local fallback pet atlas; built-in image generation output was not exposed as a usable file in this sandbox.",
+    "spritesheet":  "C:\\Users\\legen\\TO-DO-App\\hatch-pet-ledger\\final\\spritesheet.webp",
+    "validation":  "C:\\Users\\legen\\TO-DO-App\\hatch-pet-ledger\\final\\validation.json"
+}

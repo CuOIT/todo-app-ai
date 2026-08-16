@@ -1,0 +1,57 @@
+# Build outputs
+bin/
+obj/
+dist/
+out/
+publish/
+
+# Local application data
+App_Data/
+*.db
+*.db-shm
+*.db-wal
+
+# User/local IDE files
+.vs/
+.vscode/
+.idea/
+.git.nested-backup/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs and diagnostics
+*.log
+logs/
+TestResults/
+coverage/
+*.trx
+
+# NuGet
+packages/
+*.nupkg
+project.assets.json
+
+# Generated packages and release artifacts
+artifacts/
+installer/
+*.msix
+*.msixbundle
+*.appx
+*.appxbundle
+*.cer
+*.pfx
+
+# Codex/local scratch data
+.codex_tmp/
+.agents/
+.claude/
+.codex/
+.mcp.json
+
+# Codebase Memory: keep the portable graph artifact for agent/team sharing
+.codebase-memory/*
+!.codebase-memory/.gitattributes
+!.codebase-memory/artifact.json
+!.codebase-memory/graph.db.zst

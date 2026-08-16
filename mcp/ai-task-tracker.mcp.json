@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "ai-task-tracker": {
+      "command": "C:\\Users\\legen\\TO-DO-App\\mcp\\ai-task-tracker-mcp.cmd",
+      "args": [],
+      "env": {}
+    }
+  }
+}
